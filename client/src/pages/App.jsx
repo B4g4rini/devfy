@@ -1,19 +1,22 @@
-import "./App.css";
+import "./App.module.css";
+import { Link } from "react-router-dom"
 
-//Reaproveitamento de estrutura
+
 import { Outlet } from "react-router-dom";
 
-//Navegando entre links
 import Nav from "../components/nav/Nav";
-import Footer from "../components/footer/Footer"
-// import Footer from "../components/footer/Footer"
 
 const App = () => {
   return (
     <div className="App">
+      
+         <Link to="/">Home</Link>
+        
+        <Link to="/entrar">Entrar</Link>
+        <Link to="/insc">Insc</Link>
+       
       <Nav />
       <Outlet />
-      <Footer/>
     </div>
   );
 };

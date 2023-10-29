@@ -11,6 +11,26 @@ left: 0;
 background: #181818;  
 }
 
+a{
+display: flex;
+margin-top: 55px;
+margin-bottom: -35px;
+margin-left:  50px;
+font-family: Nunito;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px; 
+transition: 0.5s;
+color: #b3b3b3;
+text-decoration: inherit;
+
+}
+a:hover{
+    color: white;
+    
+}
+
 
 
 .logo{
@@ -47,3 +67,82 @@ margin-left: -17px;
 height: 24px;
 flex-shrink: 0;
 }
+
+.play{
+    display: flex;
+    width: 420px;
+    height: 500px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+    position: absolute;
+    margin-top: 5px;
+   
+    margin-left: 5px;
+    left: 0;
+     border-radius: 8px;
+    background: #181818;  
+}
+
+.livro{
+margin-top: -45px;
+margin-left: 20px;
+}
+
+.mais{
+margin-top: 15px;
+margin-left: 375px;
+
+}
+
+
+
+.login{
+    display: flex;
+padding: 8px 23.913px 8px 23.922px;
+justify-content: center;
+align-items: center;
+gap: 670.875px;
+    width: 855px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 27em;
+    top: 0;
+    left: 0;
+     border-radius: 8px;
+    background: #181818;  
+}
+
+.musics{
+display: flex;
+width: 855px;
+height: 656px;
+padding: 0px 23.922px;
+gap: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+position: absolute;
+margin-top: 5px;
+width: 900px;
+margin-left: 27em;
+left: 0;
+border-radius: 8px;
+background: #181818;  
+}
+/* 
+.direita{
+    border-radius: 50px;
+    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.70);
+}
+
+.esquerda{
+    border-radius: 50px;
+opacity: 0.6;
+background: rgba(0, 0, 0, 0.70);
+} */

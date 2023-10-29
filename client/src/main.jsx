@@ -5,8 +5,8 @@ import "./index.css";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./routes/home/Home.jsx";
-import Insc from "./routes/insc/Insc.jsx";
-import Entrar from "./routes/entrar/Entrar.jsx";
+import Start from "./routes/start/Start.jsx";
+import Procurar from "./routes/procurar/Procurar.jsx";
 import Error from "./routes/Error.jsx";
 
 const router = createBrowserRouter([
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "entrar", element: <Entrar /> },
-      { path: "insc", element: <Insc /> },
+      { path: "search", element: <Procurar /> },
+      { path: "Init", element: <Start /> },
     ],
   },
 ]);

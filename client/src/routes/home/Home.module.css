@@ -9,6 +9,7 @@ top: 0;
 left: 0;
  border-radius: 8px;
 background: #181818;  
+
 }
 
 a{
@@ -69,20 +70,21 @@ flex-shrink: 0;
 }
 
 .play{
+    top: 11.7em;
     display: flex;
     width: 420px;
-    height: 500px;
-flex-direction: column;
-align-items: flex-start;
-gap: 24px;
-flex-shrink: 0;
-    position: absolute;
+    height: 440px;
+    flex-direction: column;
     margin-top: 5px;
-   
-    margin-left: 5px;
-    left: 0;
-     border-radius: 8px;
-    background: #181818;  
+margin-left: 5px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+ border-radius: 8px;
+ 
+
+
+    background-color: #181818;
 }
 
 .livro{
@@ -116,33 +118,74 @@ gap: 670.875px;
     background: #181818;  
 }
 
-.musics{
-display: flex;
-width: 855px;
-height: 656px;
+.login 
+
+
+.musics {
+    overflow-y: scroll;
+    max-height: 500px;
+    -webkit-overflow-scrolling: touch;
+
+    background-color: black;
+    display: flex;
+    width: 860px;
+    height: 440px;
 padding: 0px 23.922px;
-gap: 40px;
-flex-direction: column;
-align-items: flex-start;
-gap: 24px;
-flex-shrink: 0;
-position: absolute;
-margin-top: 5px;
-width: 900px;
-margin-left: 27em;
-left: 0;
-border-radius: 8px;
-background: #181818;  
+    top: 12em;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+ border-radius: 8px;
+ right: 5px;
+ overflow-y: scroll;
+
+
+    background-color: #181818;
 }
-/* 
-.direita{
+
+.seta1{
+    display: flex;
+width: 20px;
+height: 20px;
+padding: 8px;
     border-radius: 50px;
     opacity: 0.6;
     background: rgba(0, 0, 0, 0.70);
 }
 
-.esquerda{
+.seta2{
+    display: flex;
+width: 20px;
+height: 20px;
+padding: 8px;
+justify-content: center;
+align-items: center;
     border-radius: 50px;
 opacity: 0.6;
 background: rgba(0, 0, 0, 0.70);
+
+}
+
+/* .login p{
+    color: #A7A7A7;
+
+font-family: Inter;
+font-size: 8.1px;
+font-style: normal;
+font-weight: 700;
+line-height: 19.2px;
+} */
+
+
+/* .login h6{
+    right: 10em;
+    display: flex;
+    width: 45px;
+    height: 20px;
+    padding: 14.4px 50.38px 13.6px 65px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 9999px;
+background: #FFF;
 } */

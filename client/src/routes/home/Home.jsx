@@ -4,6 +4,9 @@ import casa from "../../assets/casa.svg"
 import  search  from "../../assets/search.svg"
 import mais from "../../assets/mais.svg"
 import livro from "../../assets/livro.svg"
+import seta1 from "../../assets/seta1.svg"
+import seta2 from "../../assets/seta2.svg"
+
 import { Link } from "react-router-dom"
 
 
@@ -52,17 +55,20 @@ const Home = () => {
 
 
       <div className={style.login}>
+        
+        {/* <p>Registrar-se</p>
+        <h6>iniciar sessão</h6> */}
 
+<Link><img className={style.seta1}
+        src={seta1}
+        alt="imagem de uma seta para a direita"
+        /></Link>
+       <Link> <img className={style.seta2}
+        src={seta2}
+        alt="imagem de uma seta para a esquerda"
+        /></Link>
       </div>
 <div className={style.musics}>
-{/* <img className={style.direita}
-        src={direita}
-        alt="imagem de uma seta para a direita"
-        />
-        <img className={style.esquerda}
-        src={esquerda}
-        alt="imagem de uma seta para a esquerda"
-        /> */}
         
 
 </div>

@@ -1,15 +1,17 @@
 import style from "./Procurar.module.css"
 import search from "../../assets/search.svg"
+import Button from "../../components/button/Button"
 const Procurar = () => {
   return (
-    <div className={style.search}>
-           <img className={style.search}
+    <div className="Search">
+      
+         <Button>  <img className={style.search}
         src={search}
         alt="imagem de uma lupa"
-
-
+        
         />
-      <p>O que deseja ouvir?</p>
+        </Button>
+        {/* <p>O que deseja ouvir?</p> */}
 
       </div>
   )

@@ -10,9 +10,9 @@ const Procurar = () => {
         alt="imagem de uma lupa"
         
         />
+        <p>O que deseja ouvir?</p>
         </Button>
         {/* <p>O que deseja ouvir?</p> */}
-
       </div>
   )
 }

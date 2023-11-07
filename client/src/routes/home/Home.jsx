@@ -29,7 +29,7 @@ const Home = () => {
 
 
         />
-
+        <div className={style.pesquisa}>
            <img className={style.search}
         src={search}
         alt="imagem de uma lupa"
@@ -37,42 +37,68 @@ const Home = () => {
 
         />
       </div>
+      </div>
 
       <div className={style.play}>
 
-        <img className={style.mais}
+      <Link> <img className={style.mais}
                src={mais}
                alt="imagem de um +"
                />
-      <img className={style.livro}
+                </Link>
+                
+     <Link> <img className={style.livro}
         src={livro}
         alt="imagem de livros enfilerados"
         />
+        </Link>
+
+        <div className={style.criar}>
+          <p>Crie a sua primeira playlist</p>
+          <p>É fácil, nós ajudamos</p>
+         <Link><h1>Criar playlist</h1></Link> 
+        </div>
 
 
+        <div className={style.podcast}>
+          <p>Vamos lá encontrar alguns podcasts para seguir</p>
+          <p>Vamos atualiza-lo sobre os novos episódios</p>
+          <Link><h1>Procurar podcasts</h1></Link>
+          
+          </div>
 
-      </div>
-
-
-      <div className={style.login}>
         
-        {/* <p>Registrar-se</p>
-        <h6>iniciar sessão</h6> */}
 
-<Link><img className={style.seta1}
-        src={seta1}
-        alt="imagem de uma seta para a direita"
-        /></Link>
-       <Link> <img className={style.seta2}
-        src={seta2}
-        alt="imagem de uma seta para a esquerda"
-        /></Link>
+
+
       </div>
+      
+
+
+        <div className={style.setas}>
+        <Link><img className={style.seta1}
+                src={seta1}
+                alt="imagem de uma seta para a direita"
+                /></Link>
+               <Link> <img className={style.seta2}
+                src={seta2}
+                alt="imagem de uma seta para a esquerda"
+                /></Link>
+                </div>
+                <div className={style.log}>
+
+        <h6>iniciar sessão</h6>
+        <p>Registrar-se</p>
+                </div>
+     
+        
 <div className={style.musics}>
         
 
 </div>
+
       </div>
+      
     
 
   )

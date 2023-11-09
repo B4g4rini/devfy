@@ -72,10 +72,10 @@ flex-shrink: 0;
 }
 
 .play{
-    top: 11.7em;
+    top: 10.7em;
     display: flex;
     width: 420px;
-    height:600px;
+    height:700px;
     flex-direction: column;
     margin-top: 5px;
 margin-left: 5px;
@@ -103,8 +103,8 @@ margin-left: 335px;
 .criar{
     display: flex;
     margin-left: 10px;
-width: 174px;
-padding: 16px 111px 100px;
+width: 180px;
+padding: 16px 111px 50px;
 flex-direction: column;
 align-items: flex-start;
 gap: 20px;
@@ -127,7 +127,7 @@ line-height: 19.2px;
 
 .criar h1{
     margin-left: -150px;
-
+    font-size: 20px;
     color: black;
     display: flex;
 width: 160px;
@@ -145,8 +145,8 @@ background: #FFF;
     
  display: flex;
  margin-left: 10px;
-width: 174px;
-padding: 16px 111px 150px;
+width: 180px;
+padding: 16px 111px 45px;
 flex-direction: column;
 align-items: flex-start;
 gap: 20px;
@@ -166,12 +166,14 @@ line-height: 19.2px;
 }
 
 .podcast h1{
-    color: black;
-    margin-left: -150px;
-
-    display: flex;
+    position: absolute;
+    top: 475px;
+    font-size: 20px;
+color: black;
+margin-left: -150px;
+display: flex;
 width: 160px;
-height: 32px;
+height: 40px;
 padding: 7.6px 16.66px 7.4px 40px;
 justify-content: center;
 align-items: center;
@@ -179,6 +181,8 @@ flex-shrink: 0;
 
 border-radius: 9999px;
 background: #FFF;
+white-space: nowrap;
+overflow: hidden;
 }
 
 
@@ -192,9 +196,9 @@ background: #FFF;
     background-color: black;
     display: flex;
     width: 860px;
-    height: 440px;
+    height: 800px;
 padding: 0px 23.922px;
-    top: 12em;
+    top: 11em;
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
@@ -239,22 +243,28 @@ background: rgba(0, 0, 0, 0.70);
 }
 
 .log h6{
+    align-items: center;
+    text-align: center;
    right: 10em;
 font-family: Nunito;
-
-   margin-top: -10px;
+font-size: 15px ;
+   margin-top: -9px;
    margin-left: 1150px;
    display: flex;
    width: 45px;
    height: 20px;
-   padding: 14.4px 50.38px 13.6px 65px;
+   padding: 14.4px 60.38px 14.6px 65px;
    justify-content: center;
    align-items: center;
    flex-shrink: 0;
    border-radius: 9999px;
 background: #FFF;
+white-space: nowrap;
+overflow: hidden;
 }
 .log p{
+    position: absolute;
+    top: 50px;
     
  color: #A7A7A7;
  display: flex;
@@ -262,9 +272,8 @@ background: #FFF;
  margin-left: 1000px;
 
 font-family: Nunito;
-font-size: 8.1px;
+font-size: 15px;
 font-style: normal;
 font-weight: 700;
-line-height: 19.2px;
 } 
 

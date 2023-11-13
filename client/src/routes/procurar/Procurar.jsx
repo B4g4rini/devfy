@@ -1,6 +1,6 @@
 import style from "./Procurar.module.css"
 import search from "../../assets/search.svg"
-import Button from "../../components/button/Button"
+import Button from "../../components/button/Button.jsx"
 const Procurar = () => {
   return (
     <div className="Search">
@@ -12,7 +12,6 @@ const Procurar = () => {
         />
         <p>O que deseja ouvir?</p>
         </Button>
-        {/* <p>O que deseja ouvir?</p> */}
       </div>
   )
 }

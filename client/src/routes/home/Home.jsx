@@ -6,7 +6,9 @@ import mais from "../../assets/mais.svg"
 import livro from "../../assets/livro.svg"
 import seta1 from "../../assets/seta1.svg"
 import seta2 from "../../assets/seta2.svg"
-
+import nota from "../../assets/nota.png"
+import Card from "../../components/card/Card"
+import Button from "../../components/button/Button"
 import { Link } from "react-router-dom"
 
 
@@ -87,13 +89,32 @@ const Home = () => {
                 </div>
                 <div className={style.log}>
 
-        <h6>iniciar sessão</h6>
-        <p>Registrar-se</p>
+       <Button><h6>iniciar sessão</h6></Button> 
+       <Button><p>Registrar-se</p></Button>
                 </div>
      
         
 <div className={style.musics}>
-        
+
+
+       <li> <Card img={nota}>
+          
+        </Card></li>
+        <Card img={nota}>
+          
+          </Card>
+          <li><Card img={nota}>
+          
+          </Card></li>
+          <li><Card img={nota}>
+          
+          </Card></li>
+          <li><Card img={nota}>
+          
+          </Card></li>
+
+
+      
 
 </div>
 

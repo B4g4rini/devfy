@@ -191,13 +191,13 @@ overflow: hidden;
 
 
 .musics {
-    overflow-y: scroll;
-    max-height: 500px;
-    -webkit-overflow-scrolling: touch;
+    /* overflow-y: scroll; */
+    /* max-height: 500px; */
+    /* -webkit-overflow-scrolling: touch; */
 
     background-color: black;
     display: flex;
-    width: 860px;
+    width: 955px;
     height: 800px;
 padding: 0px 23.922px;
     top: 11em;
@@ -206,7 +206,7 @@ padding: 0px 23.922px;
     position: absolute;
  border-radius: 8px;
  right: 5px;
- overflow-y: scroll;
+ /* overflow-y: scroll; */
 
 
     background-color: #181818;

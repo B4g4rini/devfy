@@ -95,23 +95,15 @@ const Home = () => {
      
         
 <div className={style.musics}>
+<div className={style.cards}>
+<Card img={nota}title="Música" children="Breve descrição da música"/>
+<Card img={nota}title="Música" children="Breve descrição da música"/>
+<Card img={nota} title="Música"children="Breve descrição da música"/>
+<Card img={nota}title="Música" children="Breve descrição da música"/>
+<Card img={nota}title="Música" children="Breve descrição da música"/>
 
-
-       <li> <Card img={nota}>
-          
-        </Card></li>
-        <Card img={nota}>
-          
-          </Card>
-          <li><Card img={nota}>
-          
-          </Card></li>
-          <li><Card img={nota}>
-          
-          </Card></li>
-          <li><Card img={nota}>
-          
-          </Card></li>
+  
+</div>
 
 
       

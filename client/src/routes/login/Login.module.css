@@ -1,0 +1,20 @@
+.log h6{
+    align-items: center;
+    text-align: center;
+   /* right: 10em; */
+font-family: Nunito;
+font-size: 15px ;
+   margin-top: -9px;
+   margin-left: 1150px;
+   display: flex;
+   width: 45px;
+   height: 20px;
+   padding: 14.4px 60.38px 14.6px 65px;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   border-radius: 9999px;
+background: #FFF;
+white-space: nowrap;
+overflow: hidden;
+}

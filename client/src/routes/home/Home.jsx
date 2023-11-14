@@ -15,6 +15,7 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
+    
     <div className={style.container}>
       <div className={style.home}>
       <Link to="/init">Início </Link>
@@ -74,32 +75,32 @@ const Home = () => {
 
 
       </div>
+
+
       
 
 
+               
+     
+        
+<div className={style.musics}>
+<div className={style.bar}>
         <div className={style.setas}>
-        <Link><img className={style.seta1}
+       <Link><img className={style.seta1}
                 src={seta1}
                 alt="imagem de uma seta para a direita"
-                /></Link>
-               <Link> <img className={style.seta2}
+                /></Link> 
+                  <Link> <img className={style.seta2}
                 src={seta2}
                 alt="imagem de uma seta para a esquerda"
                 /></Link>
                 </div>
-                <div className={style.log}>
-
-       <Button><h6>iniciar sessão</h6></Button> 
-       <Button><p>Registrar-se</p></Button>
-                </div>
-     
-        
-<div className={style.musics}>
+        <a href="">Inscrever-se</a> <button>Entrar</button>
+      </div>
 <div className={style.cards}>
 <Card img={nota}title="Música" children="Breve descrição da música"/>
 <Card img={nota}title="Música" children="Breve descrição da música"/>
 <Card img={nota} title="Música"children="Breve descrição da música"/>
-<Card img={nota}title="Música" children="Breve descrição da música"/>
 <Card img={nota}title="Música" children="Breve descrição da música"/>
 
   

@@ -12,7 +12,7 @@ const App = () => {
       
       
          
-        {/* <Home/> */}
+        <Home/>
        
       <Outlet />
     </div>

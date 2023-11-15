@@ -7,6 +7,7 @@ import livro from "../../assets/livro.svg"
 import seta1 from "../../assets/seta1.svg"
 import seta2 from "../../assets/seta2.svg"
 import nota from "../../assets/nota.png"
+import mundo from "../../assets/mundo.svg"
 import Card from "../../components/card/Card"
 import { Link } from "react-router-dom"
 
@@ -70,6 +71,16 @@ const Home = () => {
           </div>
 
 
+          <div className={style.cookies}>
+            <Link><h5>Cookies</h5></Link>
+            <img className={style.mundo}
+        src={mundo}
+        alt="imagem de livros enfilerados"
+        />
+        <Link><h4>Português</h4></Link>
+          </div>
+
+
 
       </div>
         
@@ -87,7 +98,7 @@ const Home = () => {
                 /></Link>
                 </div>
       <Link to="/insc">Inscrever-se </Link>
-      <Link to="/login">Iniciar Sessão </Link>
+      <Link to="/login"><p>Iniciar Sessão</p> </Link>
 
       
 

@@ -8,6 +8,7 @@ import Home from "./routes/home/Home.jsx";
 import Start from "./routes/start/Start.jsx";
 import Procurar from "./routes/procurar/Procurar.jsx";
 import Logar from "./routes/login/Login.jsx";
+import Inscrever from "./routes/insc/insc.jsx";
 import Error from "./routes/Error.jsx";
 
 const router = createBrowserRouter([
@@ -20,6 +21,8 @@ const router = createBrowserRouter([
       { path: "search", element: <Procurar /> },
       { path: "Init", element: <Start /> },
       { path: "login", element: <Logar /> },
+      { path: "insc", element: <Inscrever /> },
+
 
     ],
   },

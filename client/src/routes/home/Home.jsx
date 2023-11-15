@@ -8,7 +8,6 @@ import seta1 from "../../assets/seta1.svg"
 import seta2 from "../../assets/seta2.svg"
 import nota from "../../assets/nota.png"
 import Card from "../../components/card/Card"
-import Button from "../../components/button/Button"
 import { Link } from "react-router-dom"
 
 
@@ -70,21 +69,13 @@ const Home = () => {
           
           </div>
 
-        
-
 
 
       </div>
-
-
-      
-
-
-               
-     
         
 <div className={style.musics}>
-<div className={style.bar}>
+  <div className={style.bar}>
+
         <div className={style.setas}>
        <Link><img className={style.seta1}
                 src={seta1}
@@ -95,13 +86,17 @@ const Home = () => {
                 alt="imagem de uma seta para a esquerda"
                 /></Link>
                 </div>
-        <a href="">Inscrever-se</a> <button>Entrar</button>
-      </div>
+      <Link to="/insc">Inscrever-se </Link>
+      <Link to="/login">Iniciar Sessão </Link>
+
+      
+
+                </div>
 <div className={style.cards}>
-<Card img={nota}title="Música" children="Breve descrição da música"/>
-<Card img={nota}title="Música" children="Breve descrição da música"/>
-<Card img={nota} title="Música"children="Breve descrição da música"/>
-<Card img={nota}title="Música" children="Breve descrição da música"/>
+<Card img={nota} title="Música" children="Breve descrição da música"/>
+<Card img={nota} title="Música" children="Breve descrição da música"/>
+<Card img={nota} title="Música" children="Breve descrição da música"/>
+<Card img={nota} title="Música" children="Breve descrição da música"/>
 
   
 </div>

@@ -4,7 +4,6 @@ const Login = () => {
   return (
    <div className={style.log}>
    <Button>
-    <h6>Iniciar Sessão</h6>
    </Button>
 
    </div>

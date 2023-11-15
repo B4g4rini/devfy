@@ -6,7 +6,7 @@ import mais from "../../assets/mais.svg"
 import livro from "../../assets/livro.svg"
 import seta1 from "../../assets/seta1.svg"
 import seta2 from "../../assets/seta2.svg"
-import nota from "../../assets/nota.png"
+import azul from "../../assets/azul.png"
 import mundo from "../../assets/mundo.svg"
 import Card from "../../components/card/Card"
 import { Link } from "react-router-dom"
@@ -72,7 +72,9 @@ const Home = () => {
 
 
           <div className={style.cookies}>
-            <Link><h5>Cookies</h5></Link>
+          <Link to="/cookie"><h5>Cookies</h5></Link>
+
+
             <img className={style.mundo}
         src={mundo}
         alt="imagem de livros enfilerados"
@@ -104,10 +106,10 @@ const Home = () => {
 
                 </div>
 <div className={style.cards}>
-<Card img={nota} title="Música" children="Breve descrição da música"/>
-<Card img={nota} title="Música" children="Breve descrição da música"/>
-<Card img={nota} title="Música" children="Breve descrição da música"/>
-<Card img={nota} title="Música" children="Breve descrição da música"/>
+<Card img={azul} title="Música" children="Breve descrição da música"/>
+<Card img={azul} title="Música" children="Breve descrição da música"/>
+<Card img={azul} title="Música" children="Breve descrição da música"/>
+<Card img={azul} title="Música" children="Breve descrição da música"/>
 
   
 </div>
